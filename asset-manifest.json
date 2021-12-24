@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Text-terminator/static/css/main.dbea2d1b.chunk.css",
+    "main.js": "/Text-terminator/static/js/main.64c38bc2.chunk.js",
+    "main.js.map": "/Text-terminator/static/js/main.64c38bc2.chunk.js.map",
+    "runtime-main.js": "/Text-terminator/static/js/runtime-main.a1ea8872.js",
+    "runtime-main.js.map": "/Text-terminator/static/js/runtime-main.a1ea8872.js.map",
+    "static/js/2.93b040fc.chunk.js": "/Text-terminator/static/js/2.93b040fc.chunk.js",
+    "static/js/2.93b040fc.chunk.js.map": "/Text-terminator/static/js/2.93b040fc.chunk.js.map",
+    "static/js/3.f03d6cd6.chunk.js": "/Text-terminator/static/js/3.f03d6cd6.chunk.js",
+    "static/js/3.f03d6cd6.chunk.js.map": "/Text-terminator/static/js/3.f03d6cd6.chunk.js.map",
+    "index.html": "/Text-terminator/index.html",
+    "static/css/main.dbea2d1b.chunk.css.map": "/Text-terminator/static/css/main.dbea2d1b.chunk.css.map",
+    "static/js/2.93b040fc.chunk.js.LICENSE.txt": "/Text-terminator/static/js/2.93b040fc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1ea8872.js",
+    "static/js/2.93b040fc.chunk.js",
+    "static/css/main.dbea2d1b.chunk.css",
+    "static/js/main.64c38bc2.chunk.js"
+  ]
+}
