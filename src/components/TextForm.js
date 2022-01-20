@@ -105,17 +105,17 @@ export default function TextForm(props) {
                     </div>
                 </form>
                 {/* here is the button for the convert text into uppercase */}
-                <button type="submit" onClick={handleUpperClick} className="mx-3 btn btn-outline-warning">Convert to Uppercase</button>
-                <button type="submit" onClick={handleLowerClick} className="mx-3 btn btn-outline-warning">Convert to Lowercase</button>
-                <button type="submit" onClick={handleClearClick} className="mx-3 btn btn-outline-warning">clear</button>
-                <button type="submit" onClick={handleTitleClick} className="mx-3 btn btn-outline-warning">Title Case</button>
-                <button type="submit" onClick={handleCopy} className="mx-3 btn btn-outline-warning">Copy text</button>
-                <button type="submit" onClick={handleSpaces} className="mx-3 btn btn-outline-warning">Remove extra spaces</button>
+                <button type="submit" onClick={handleUpperClick} className="mx-3 my-2  btn btn-outline-warning">Convert to Uppercase</button>
+                <button type="submit" onClick={handleLowerClick} className="mx-3 my-2 btn btn-outline-warning">Convert to Lowercase</button>
+                <button type="submit" onClick={handleClearClick} className="mx-3 my-2 btn btn-outline-warning">clear</button>
+                <button type="submit" onClick={handleTitleClick} className="mx-3 my-2 btn btn-outline-warning">Title Case</button>
+                <button type="submit" onClick={handleCopy} className="mx-3 my-2 btn btn-outline-warning">Copy text</button>
+                <button type="submit" onClick={handleSpaces} className="mx-3 my-2 btn btn-outline-warning">Remove extra spaces</button>
             </div>
             <div className="container" style={myStyle}>
                 <h2>Your text summary</h2>
-                <h6>{text.split(' ').length - 1} words and {text.length} characters </h6>
-                <h6>{0.08 * text.split(' ').length} minutes take to Read these words</h6>
+                <h6>{text.split(/\s+/).filter((element)=>{return element.length !==0}).length}words and {text.length} characters </h6>
+                <h6>{0.08 * text.split(' ').filter((element)=>{return element.length !== 0}).length} minutes take to Read these words</h6>
                 <h3 className='mt-5 mb-2'>Preview</h3>
                 <p>{text.length>0 ? text:'enter something to preview your text'}</p>
             </div>
